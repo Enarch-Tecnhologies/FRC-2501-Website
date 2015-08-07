@@ -1,41 +1,45 @@
-<?php include('classes.php'); ?>
-<!DOCTYPE HTML>
-<html>
-<!--
-This site is written and maintained by:
-Michael Wilke at EnArch Technologies
--->
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <?php 
-if ($uacheck->ismobile()) {
-	echo '<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">';
-}
-if (isset($desc)) {
-	echo '<meta name="description" content="'.$desc.'">';
-}
+	include('classes.php'); 
 ?>
 
+<!--This site is written and maintained by: Michael Wilke at EnArch Technologies-->
 
-<link rel="stylesheet" type="text/css" href="/styles.css" />
-<link rel="stylesheet" type="text/css" href="/mobilestyles.css" />
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<?php 
+		if ($uacheck->ismobile()) {
+			echo '<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">';
+		}
+		if (isset($desc)) {
+			echo '<meta name="description" content="'.$desc.'">';
+		}
+	?>
 
-<!--<script src="js/navScroll.js" type="text/javascript"></script>-->
 
-<!--<link rel="stylesheet" type="text/css" href="/boxstyles.css" />-->
-<!--[if IE]>
-<link rel="stylesheet" type="text/css" href="ieoverride.css" />
-<![endif]-->
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
-<script type="text/javascript" src="/scripts.js"></script>
-<link rel="icon" type="image/png" href="favicon.png">
-<link rel="apple-touch-icon" href="apple-icon.png" />
-<title><?php echo $pageTitle; ?></title>
-<?php echo $headerstuff; ?>
-</head>
+	<link rel="stylesheet" type="text/css" href="/css/styles.css" />
+	<link rel="stylesheet" type="text/css" href="/css/mobilestyles.css" />
+
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="/scripts.js"></script>
+
+
+	<link rel="icon" type="image/png" href="favicon.png">
+
+	<link rel="apple-touch-icon" href="apple-icon.png" />
+
+	<title>
+		<?php echo $pageTitle; ?>
+	</title>
+		<?php echo $headerstuff; ?>
+	</head>
 
 <body onLoad="load();">
-<div id="fb-root"></div>
+	<div id="fb-root">
+    </div>
+
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) {return;}
@@ -46,16 +50,17 @@ if (isset($desc)) {
 
 
 <div id="newnav">
-<a href="/" class="newnavitem" style="border-left: 0px;">Home</a>
-<a href="/Team" class="newnavitem">Team 3926</a>
-<a href="/Robot" class="newnavitem">The Robot</a>
-<a href="/Sponsors" class="newnavitem">Our Sponsors</a>
-<a href="/wordpress" class="newnavitem">News</a>
-<a href="/Media" class="newnavitem">Media</a>
-<a href="/Wiki" class="newnavitem">Wiki</a>
-<a href="mailto:robotics@moundsparkacademy.org" class="newnavitem">Contact Us</a>
-<a href="/Search" class="newnavitem" style="border-right: 0px;">Search</a>
+	<a href="/" class="newnavitem" style="border-left: 0px;">Home</a>
+	<a href="/Team" class="newnavitem">Team 3926</a>
+	<a href="/Robot" class="newnavitem">The Robot</a>
+	<a href="/Sponsors" class="newnavitem">Our Sponsors</a>
+	<a href="/wordpress" class="newnavitem">News</a>
+	<a href="/Media" class="newnavitem">Media</a>
+	<a href="/Wiki" class="newnavitem">Wiki</a>
+	<a href="mailto:robotics@moundsparkacademy.org" class="newnavitem">Contact Us</a>
+	<a href="/Search" class="newnavitem" style="border-right: 0px;">Search</a>
 </div>
+
 <div id="website">
 <div id="nav">
 <a href="/"><img src="/images/logo1-4.svg" alt="logo" id="logo"></a>
