@@ -1,8 +1,8 @@
 <?php 
-$headerstuff = '<style type="text/css">a{ color:#09F;}</style>';
-$pageTitle = "MPA Robotics - Sponsors";
-include('header.php');
-flush();
+	$headerstuff = '<style type="text/css">a{ color:#09F;}</style>';
+	$pageTitle = "MPA Robotics - Sponsors";
+	include('header.php');
+	flush();
 ?>
 
 <div id="content">
@@ -11,8 +11,8 @@ flush();
 	</div>
 	
 <div id="simages">
-<div id="sponsor1">
-<a href="http://www.jcpenney.com" id="sjcp"><img style="width:100%;" src="/images/jcpenney.png" alt="jcpenney Logo"></a>
+	<div id="sponsor1">
+		<a href="http://www.jcpenney.com" id="sjcp"><img style="width:100%;" src="/images/jcpenney.png" alt="jcpenney Logo"></a>
 
 <a href="http://www.nasa.gov" id="snasa"><img style="width:100%;" src="/images/NASA_logo.png" alt="NASA Logo"></a>
 </div>
