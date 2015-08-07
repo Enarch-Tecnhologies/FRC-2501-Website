@@ -3,9 +3,7 @@
 <html>
 <!--
 This site is written and maintained by:
-Brendan Boyle,
-Connor Olson,
-Michael Wilke
+Michael Wilke at EnArch Technologies
 -->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">

@@ -1,4 +1,3 @@
-
 <div id="footer">
 <table id="footerTable">
 <tr>
@@ -88,7 +87,5 @@ new TWTR.Widget({
 <?php include('mobilefooter.php'); ?>
 </div>
 
-<?php echo $footerstuff; 
-include('analytics.php'); ?>
 </body>
 </html>
