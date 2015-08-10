@@ -41,12 +41,7 @@
 <div id="newnav">
 	<a href="/" class="newnavitem" style="border-left: 0px;">Home</a>
 	<a href="/Team" class="newnavitem">Team 2501</a>
-	<a href="#" class="newnavitem">Item2</a>
 	<a href="/Sponsors" class="newnavitem">Our Sponsors</a>
-	<a href="#" class="newnavitem">Item3</a>
-	<a href="#" class="newnavitem">Item4</a>
-	<a href="#" class="newnavitem">Item5</a>
-	<a href="#" class="newnavitem">Item6</a>
 	<a href="/Search" class="newnavitem" style="border-right: 0px;">Search</a>
 </div>
 
