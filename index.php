@@ -10,7 +10,7 @@
 </div>
 
 <!-- Begin Content Exp -->
-<div id="sponsors">
+<!--<div id="sponsors">
 	<div id="sponsorswoosh" class="swoosh">
 	</div>
 </div>
@@ -20,7 +20,7 @@
 		<h1>TEXT BOX</h1>
 			<p style="line-height:1.5;">TEXT HERE ;JAWE;AEW;OIJAWEO;JAW;OIAWE;HAWBIVPBIEVIBUEVIUBWIBLIWAEBLFINWALCLJIA LIWABIEDILAWUNEKJAWF
 	</div>
-</div>
+</div>-->
 
 <!--
 <div id="mobilecontent">
