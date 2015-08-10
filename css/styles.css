@@ -115,21 +115,6 @@ a, img {
 	display: block;
 }
 
-/*
-#nav {
-	height: 125px;
-	width: 100%;
-	background: url('http://error3130.org/zenphoto/albums/2011-Nationals/RoboticsNationals-41-.jpg');
-}
-*/
-
-#logo {
-	float: left;
-	height: 130px;
-	position: relative;
-	z-index: 1;
-}
-
 #csbcontainer {
 	margin: auto;
 	height: 125px;
@@ -461,7 +446,7 @@ a, img {
 	width: 950px;
 	height: 55px;
 	margin: auto;
-	background: url('/images/navThin.png');
+	background: url('/resources/images/elements/navThin.png');
 	margin-bottom: -75px;
 	z-index: 4;
 	position: relative;

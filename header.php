@@ -23,7 +23,6 @@
 
 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
-	<script type="text/javascript" src="/scripts.js"></script>
 
 
 	<link rel="icon" type="image/png" href="favicon.png">
@@ -37,16 +36,6 @@
 	</head>
 
 <body onLoad="load();">
-	<div id="fb-root">
-    </div>
-
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) {return;}
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=298960316797315";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 
 
 <div id="newnav">
@@ -63,7 +52,7 @@
 
 <div id="website">
 <div id="nav">
-<a href="/"><img src="/resources/images/Logos/Logomono.png" alt="logo" id="logo"></a>
-<div id="headerimg1" class="headerimg" style="width: 100%; height: 130px; background: url('/images/Slideshow/slideshow1.png'); z-index: 0; position: relative;"></div>
+<div id="headerimg1" class="headerimg" style="width: 100%; height: 130px; background: url('/resources/images/Banner/slideshow1.png'); z-index: 0; position: relative;">
+</div>
 
 </div>
