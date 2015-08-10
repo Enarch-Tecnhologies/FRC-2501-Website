@@ -23,15 +23,11 @@
 	</div>
 </div>
 
-	<div id="sponsor3">
-		<div id="shome">
-			<br /><br />
-<a style="font-size:25px;" href="http://www.homedepot.com">The Home Depot</a><br />
-</div></div>
-
 <div id="sspecial">
-<h4 style="color:#000;">Additional thanks to Kablooe Design, Hubbard Broadcasting, The U of M Medical Devices Center, the U of M Engineering Department, PaR Systems, the 3M Innovation Center, Mr. Joe Springer and Dr. Joan Ireland, Mr. Soblavarro and Dr. Gromer, Mr. Gobran, and all of our mentors for their help and support.</h4>
+<h4 style="color:#000;">Thank you to EnArch Technologies for creating our website</h4>
 </div>
+
+
 </div>
 </div>
 
