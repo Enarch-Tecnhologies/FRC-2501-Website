@@ -23,11 +23,8 @@
 
 <div id="abouttheteam">
 	<div id="teaminfo">
-		<h1>Upcoming Events</h1>
-			<p style="line-height:1.5;">Fans of robotics should also be getting ready for the 2013 season.  Kickoff will be January 7th, and we will be competing at Mariucci Arena in March.
-		<br />
-		<br />
-		<p>Photos from Woodbury Days are located in the <a href="http://team3926.org/Media">Media</a> tab of the website.</p>
+		<h1>TEXT BOX</h1>
+			<p style="line-height:1.5;">TEXT HERE ;JAWE;AEW;OIJAWEO;JAW;OIAWE;HAWBIVPBIEVIBUEVIUBWIBLIWAEBLFINWALCLJIA LIWABIEDILAWUNEKJAWF
 	</div>
 </div>
 
